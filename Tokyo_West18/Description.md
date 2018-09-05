@@ -28,7 +28,7 @@ We can arrange the above equation like that in the following steps. Here, e is k
 ###### *qe = kp + 1 --> 2*
 ###### *n = p * q   --> 3*
 ###### *p = n / q   --> 4* 
-###### *q <sup> 2 </sup> e - q - k*n = 0 --> 5*
+###### *q <sup> 2 </sup> e - q - k * n = 0 --> 5*
 
 We solve the above quadratic equation ( 5 ) and to get the value of q. We will have to bruteforce the value of k and find the value of q as per the above equation. We can check that if we have got the correct q by checking whether gcd of n (= p * q) and q is q.
 Once we get the value of q we can find the value phi (n) accordingly and then find the decryption key d and finally decrypt our ciphertext c to get our original message m.
